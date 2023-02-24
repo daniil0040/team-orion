@@ -9,18 +9,14 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+.list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-a {
-  color: currentColor;
+.link {
+  color: inherit;
   text-decoration: none;
 }
 
