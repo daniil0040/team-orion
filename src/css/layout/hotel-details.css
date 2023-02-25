@@ -8,7 +8,6 @@
   font-size: 40px;
   line-height: 1;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
 }
 
 .hotel-details-text {
@@ -16,7 +15,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--main-white-color);
 }
 
@@ -24,9 +22,8 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
+    border-color var(--cubic-bezier);
 }
 
 .hotel-details-btn:is(:hover, :focus) {
@@ -39,11 +36,9 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--main-white-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
+    border-color var(--cubic-bezier);
 }
 
 .hotel-details-link:is(:hover, :focus) {
