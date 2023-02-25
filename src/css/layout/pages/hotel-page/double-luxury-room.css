@@ -1,0 +1,59 @@
+.double-room {
+}
+
+.double-room-list {
+}
+.list {
+}
+.double-room-item {
+}
+.double-room-img {
+}
+.double-room-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+.double-room-top-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+.double-room-bottom-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+.double-room-btn-list {
+}
+.double-room-btn-item {
+}
+.double-room-btn-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+.btn {
+}
+.link {
+}
+.double-room-btn-button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
