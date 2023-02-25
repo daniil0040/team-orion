@@ -1,0 +1,53 @@
+.restaurant-menu {
+  background-color: var(--main-black-color);
+}
+.restaurant-menu-title {
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+.restaurant-menu-subtitle {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+.restaurant-menu-list {
+  color: var(--main-white-color);
+}
+.restaurant-menu-item {
+}
+.restaurant-menu-dishes {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-white-color);
+}
+.restaurant-menu-text {
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.18em;
+  color: rgba(216, 215, 215, 0.5);
+}
+.restaurant-price-wrap {
+}
+.restaurant-menu-weight {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #d8d7d7;
+}
+.restaurant-menu-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-white-color);
+}
+.restaurant-menu-btn {
+}
