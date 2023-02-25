@@ -1,25 +1,43 @@
-.hero-restaurant{
-background-color: var(--main-white-color);
+.hero-restaurant {
+  background-color: var(--main-white-color);
 }
-.hero-restaurant-title{
-    font-weight: 400;
-font-size: 40px;
-line-height: 1;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: var(--main-black-color);
+.hero-restaurant-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-black-color);
 }
-.hero-restaurant-btn{
-    color: var(--main-black-color);
+.hero-restaurant-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-restaurant-link{
-    display: inline-block;
-    color: var(--main-black-color);
+.hero-restaurant-link:is(:hover, :focus),
+.hero-restaurant-btn:is(:hover, :focus) {
+  color: var(--main-white-color);
+  background-color: var(--main-black-color);
+  border-color: var(--main-black-color);
 }
-.hero-restaurant-text{
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: 0.05em;
-text-transform: uppercase;
-color: (--main-black-color);
+.hero-restaurant-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--main-black-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-restaurant-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--main-black-color);
 }
