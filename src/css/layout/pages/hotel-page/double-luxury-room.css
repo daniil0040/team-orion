@@ -44,7 +44,21 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #121212;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.double-room-btn-link:hover,
+.double-room-btn-link:focus {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  background-color: #121212;
+}
+
 .btn {
 }
 .link {
@@ -56,4 +70,17 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #121212;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.double-room-btn-button:hover,
+.double-room-btn-button:focus {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  background-color: #121212;
 }
