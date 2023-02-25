@@ -3,84 +3,60 @@
 
 .double-room-list {
 }
-.list {
-}
+
 .double-room-item {
 }
 .double-room-img {
 }
+
 .double-room-title {
-  font-weight: 700;
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #121212;
+  color: var(--main-black-color);
 }
-.double-room-top-text {
-  font-weight: 400;
+
+.double-room-text {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #121212;
-}
-.double-room-bottom-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #121212;
+  color: var(--main-black-color);
 }
 .double-room-btn-list {
 }
 .double-room-btn-item {
 }
-.double-room-btn-link {
-  font-weight: 400;
+.double-room-link {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #121212;
+  color: var(--main-black-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.double-room-btn-link:hover,
-.double-room-btn-link:focus {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #f7f7f7;
-  background-color: #121212;
+.double-room-link:hover,
+.double-room-link:focus {
+  color: var(--main-white-color);
+  background-color: var(--main-black-color);
+  border-color: var(--main-black-color);
 }
 
-.btn {
-}
-.link {
-}
-.double-room-btn-button {
-  font-weight: 400;
+.double-room-btn {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #121212;
+  color: var(--main-black-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.double-room-btn-button:hover,
-.double-room-btn-button:focus {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #f7f7f7;
-  background-color: #121212;
+.double-room-btn:hover,
+.double-room-btn:focus {
+  color: var(--main-white-color);
+  background-color: var(--main-black-color);
+  border-color: var(--main-black-color);
 }
