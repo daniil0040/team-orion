@@ -2,7 +2,6 @@
   font-size: 32px;
   line-height: 0.94;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--main-black-color);
 }
 
@@ -10,7 +9,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
   color: var(--main-black-color);
 }
 .four-room-link {
@@ -18,9 +16,8 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--cubic-bezier);
+  transition: color var(--cubic-bezier), border-color var(--cubic-bezier);
 }
 
 .four-room-btn {
@@ -28,9 +25,8 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color var(--cubic-bezier);
+  transition: color var(--cubic-bezier), border-color var(--cubic-bezier);
 }
 .four-room-link:is(:hover, :focus),
 .four-room-btn:is(:hover, :focus) {
