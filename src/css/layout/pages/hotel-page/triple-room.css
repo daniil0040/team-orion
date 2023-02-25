@@ -34,4 +34,5 @@
 .triple-room-btn:is(:hover, :focus) {
   color: var(--main-white-color);
   background-color: var(--main-black-color);
+  border-color: var(--main-black-color);
 }
