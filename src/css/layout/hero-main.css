@@ -24,3 +24,12 @@
   text-transform: uppercase;
   color: var(--main-white-color);
 }
+.hero-main-btn{
+  transition: background-color var(--transform-dir-and-func);
+}
+.hero-main-btn:hover,
+.hero-main-btn:focus{
+  color: var(--main-black-color);
+  background-color: #ffffff;
+  border-color: transparent;
+}
