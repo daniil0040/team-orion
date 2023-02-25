@@ -1,11 +1,8 @@
 .location-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 1;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
-
   color: var(--main-black-color);
 }
 
@@ -14,9 +11,7 @@
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
-
-  color: #000000;
+  color: var(--main-black-color);
 }
 .location-bottom-text {
   font-style: normal;
@@ -24,8 +19,6 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  text-transform: uppercase;
-
   color: var(--main-black-color);
 }
 
@@ -34,6 +27,5 @@
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-
   color: var(--main-black-color);
 }
