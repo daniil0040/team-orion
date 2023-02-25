@@ -28,7 +28,13 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: var(--main-black-color);
-    border: 0.8px solid var(--main-black-color);
-    padding: 8px 18px;
-    
+    border-color: var(--main-black-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn:is(:hover, :focus) {
+    color: var(--main-white-color);
+    background-color: var(--main-black-color);
+}
+
