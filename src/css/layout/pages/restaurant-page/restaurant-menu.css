@@ -9,16 +9,13 @@
   color: var(--main-white-color);
 }
 .restaurant-menu-subtitle {
-  font-style: italic;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--main-white-color);
 }
-.restaurant-menu-list {
-  color: var(--main-white-color);
-}
+
 .restaurant-menu-item {
 }
 .restaurant-menu-dishes {
@@ -50,10 +47,11 @@
   color: var(--main-white-color);
 }
 .restaurant-menu-btn {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .restaurant-menu-btn:hover,
 .restaurant-menu-btn:focus {
-    color: var(--main-black-color);
-    background-color: var(--main-white-color);
+  color: var(--main-black-color);
+  background-color: var(--main-white-color);
 }
