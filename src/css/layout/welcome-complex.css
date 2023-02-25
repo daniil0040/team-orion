@@ -15,10 +15,6 @@
   color: var(--main-text-color);
 }
 
-.welcome-title span {
-  font-style: italic;
-}
-
 .welcome-top-text {
   font-size: 14px;
   line-height: 1.29;
