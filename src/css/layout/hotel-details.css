@@ -1,0 +1,29 @@
+.hotel-details {
+  background-color: var(--main-black-color);
+}
+
+.hotel-details-title {
+  color: #f6f6f6;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.hotel-details-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
+
+.hotel-details-btn {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--main-white-color);
+}
