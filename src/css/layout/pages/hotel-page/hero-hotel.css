@@ -46,6 +46,9 @@
   .hero-hotel {
     padding-bottom: 40px;
   }
+  .hero-hotel-list {
+    margin-bottom: 54px;
+  }
   .hero-hotel-title {
     font-size: 80px;
     margin-bottom: 32px;
@@ -77,5 +80,4 @@
     font-size: 18px;
     line-height: 1.33;
   }
-
 }
