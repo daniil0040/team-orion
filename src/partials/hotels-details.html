@@ -1,38 +1,115 @@
 <section class="hotel-details">
   <div class="container">
-    <h2 class="hotel-details-title">Hotel</h2>
-    <p class="hotel-details-text">
-      Book your stay with us now and experience the epitome of comfort and
-      luxury at our hotel. We guarantee you'll be thrilled with your decision.
-    </p>
+    <div class="hotel-details-wrap">
+      <div class="hotel-details-title-wrap">
+        <h2 class="hotel-details-title">Hotel</h2>
+        <p class="hotel-details-text">
+          Book your stay with us now and experience the epitome of comfort and
+          luxury at our hotel. We guarantee you'll be thrilled with your
+          decision.
+        </p>
+      </div>
+      <ul class="hotel-details-btn-list-tablet list">
+        <li class="hotel-details-btn-item">
+          <button type="button" class="hotel-details-btn btn">
+            Book a room
+          </button>
+        </li>
+        <li class="hotel-details-btn-item">
+          <a class="hotel-details-link btn link" href="../hotel.html"
+            >View rooms</a
+          >
+        </li>
+      </ul>
+    </div>
     <ul class="hotel-details-list list">
-      <li class="hotel-details-item">
-        <img
-          class="hotel-details-img"
-          src="../images/hotels-details/hotels-details-1@1x.jpg"
-          alt="Hotel room"
-        />
+      <div class="hotel-details-img-wrap hotel-details-hidden-wrap">
+        <li class="hotel-details-item">
+          <picture>
+            <source
+              srcset="\images\hotels-details\hotels-details-4-desctop@1x.jpg"
+              media="(min-width: 1440px)"
+            />
+            <img
+              class="hotel-details-img"
+              src="../images/hotels-details/hotels-details-4-tablet@1x.jpg"
+              alt="Hotel room"
+            />
+          </picture>
+        </li>
+        <li class="hotel-details-item">
+          <picture>
+            <source
+              srcset="\images\hotels-details\hotels-details-5-desctop@1x.jpg"
+              media="(min-width: 1440px)"
+            />
+            <img
+              class="hotel-details-img"
+              src="../images/hotels-details/hotels-details-5-tablet@1x.jpg"
+              alt="Hotel room"
+            />
+          </picture>
+        </li>
+      </div>
+      <li class="hotel-details-item hotel-details-static-img">
+        <picture>
+          <source
+            srcset="\images\hotels-details\hotels-details-1-desctop@1x.jpg"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="\images\hotels-details\hotels-details-1-tablet@1x.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            class="hotel-details-img"
+            src="../images/hotels-details/hotels-details-1-mobile@1x.jpg"
+            alt="Hotel room"
+          />
+        </picture>
       </li>
-      <li class="hotel-details-item">
-        <img
-          class="hotel-details-img"
-          src="../images/hotels-details/hotels-details-2@1x.jpg"
-          alt="Bathroom accessories"
-        />
-      </li>
-      <li class="hotel-details-item">
-        <img
-          class="hotel-details-img"
-          src="../images/hotels-details/hotels-details-3@1x.jpg"
-          alt="Hotel bathroom"
-        />
-      </li>
+      <div class="hotel-details-img-wrap">
+        <li class="hotel-details-item">
+          <picture>
+            <source
+              srcset="\images\hotels-details\hotels-details-2-desctop@1x.jpg"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="\images\hotels-details\hotels-details-2-tablet@1x.jpg"
+              media="(min-width: 768px)"
+            />
+            <img
+              class="hotel-details-img"
+              src="../images/hotels-details/hotels-details-2-mobile@1x.jpg"
+              alt="Bathroom accessories"
+            />
+          </picture>
+        </li>
+        <li class="hotel-details-item">
+          <picture>
+            <source
+              srcset="\images\hotels-details\hotels-details-3-desctop@1x.jpg"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="\images\hotels-details\hotels-details-3-tablet@1x.jpg"
+              media="(min-width: 768px)"
+            />
+            <img
+              class="hotel-details-img"
+              src="/images/hotels-details/hotels-details-3-mobile@1x.jpg"
+              alt="Hotel bathroom"
+            />
+          </picture>
+        </li>
+      </div>
     </ul>
     <ul class="hotel-details-btn-list list">
-      <li class="hotel-details-item">
+      <li class="hotel-details-btn-item">
         <button type="button" class="hotel-details-btn btn">Book a room</button>
       </li>
-      <li class="hotel-details-item">
+      <li class="hotel-details-btn-item">
         <a class="hotel-details-link btn link" href="../hotel.html"
           >View room</a
         >
