@@ -94,8 +94,20 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .restaurants-details {
+    padding-top: 44px;
+    padding-bottom: 113px;
+  }
+  .restaurants-details-container {
+    position: relative;
+  }
   .restaurants-details-title {
     font-size: 68px;
+  }
+  .restaurants-btn-list {
+    position: absolute;
+    right: 32px;
+    top: 0;
   }
   .restaurants-details-link,
   .restaurants-details-btn {
