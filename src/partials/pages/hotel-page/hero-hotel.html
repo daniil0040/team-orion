@@ -1,5 +1,5 @@
 <section class="hero-hotel">
-  <div class="container">
+  <div class="container hero-hotel-container">
     <h1 class="hero-hotel-title">Hotel</h1>
     <ul class="hero-hotel-list list">
       <li class="hero-hotel-item">
@@ -9,11 +9,26 @@
         <button class="hero-hotel-btn btn" type="button">View prices</button>
       </li>
     </ul>
-    <img
-      class="hero-hotel-img"
-      src="../../../images/pages/hotel-page/hero-hotel/hero-hotel-mobile@1x.jpg"
-      alt="Hotel"
-    />
+    <picture>
+      <source
+        srcset="
+        ../../../images/pages/hotel-page/hero-hotel/hero-hotel-desctop@1x.jpg 1x
+        "
+        media="(min-width: 1440px)"
+        type="image/jpeg"
+      />
+      <source
+        srcset="
+        ../../../images/pages/hotel-page/hero-hotel/hero-hotel-tablet@1x.jpg
+        "
+        media="(min-width: 768px)"
+        type="image/jpeg"
+      />
+      <img  class="hero-hotel-img"
+        src="../../../images/pages/hotel-page/hero-hotel/hero-hotel-mobile@1x.jpg"
+        alt="restaurant"
+      />
+    </picture>
     <p class="hero-hotel-text">
       Whether you're in the mood for a hearty breakfast, a light lunch, or
       <span class="italic">a romantic dinner</span>, our menu has something for
