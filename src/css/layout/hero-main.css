@@ -64,7 +64,7 @@
     margin-top: -229px;
   }
   .hero-main-list{
-    padding-bottom: 86px;
+    margin-bottom: 86px;
   }
   .main-hero-texy-wrapper{
     display: flex;
@@ -95,7 +95,7 @@
     position: absolute;
     bottom: 0;
     right: 94px;
-    padding-bottom: 78px;
+    margin-bottom: 78px;
   }
   .main-hero-texy-wrapper{
     display: flex;
