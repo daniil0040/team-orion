@@ -3,6 +3,9 @@
   padding-bottom: 64px;
   background-color: var(--main-white-color);
 }
+.hero-restaurant-container {
+  position: relative;
+}
 .hero-restaurant-title {
   margin-bottom: 24px;
   font-weight: 400;
@@ -74,17 +77,13 @@
     padding-top: 204px;
     padding-bottom: 82px;
   }
-  .hero-restaurant-container {
-    position: relative;
-  }
-
   .hero-restaurant-title {
     font-size: 90px;
   }
   .hero-restaurant-img {
     position: absolute;
-    top: 30px;
-    left: 757px;
+    top: -174px;
+    left: 737px;
   }
   .hero-restaurant-list {
     margin-bottom: 204px;
