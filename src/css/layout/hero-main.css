@@ -10,8 +10,6 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-/* FIX GRADIENT!!!!!!!!! */
-/* linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, var(--main-black-color) 98.51%), */
 .hero-main-title {
   font-weight: 400;
   font-size: 80px;
@@ -25,7 +23,7 @@
   display: flex;
   justify-content: center;
   gap: 14px;
-  padding-bottom: 66px;
+  margin-bottom: 66px;
 }
 .main-hero-texy-wrapper{
   display: flex;
