@@ -1,33 +1,41 @@
 <section class="welcome">
-  <div class="container">
-    <h2 class="welcome-title">
-      Welcome to the epitome of
-      <span class="italic">luxury</span> and
-      <span class="italic">comfort</span>
-    </h2>
-    <div class="welcome-text-container">
-      <p class="welcome-top-text">
-        Our hotel rooms are elegantly designed with an eye for detail, ensuring
-        that you have everything you need for a relaxing and rejuvenating stay.
-      </p>
-      <p class="welcome-bottom-text">
-        Each room is equipped with the latest amenities, including plush
-        bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to help
-        you start your day right. Our spacious bathrooms feature luxurious
-        toiletries and towels, so you can pamper yourself in complete privacy.
-      </p>
+  <div class="welcome-container container">
+    <div class="welcome-wrapper">
+      <h2 class="welcome-title">
+        Welcome to the epitome of
+        <span class="italic">luxury</span> and
+        <span class="italic">comfort</span>
+      </h2>
+      <div class="welcome-text-container">
+        <p class="welcome-top-text">
+          Our hotel rooms are elegantly designed with an eye for detail,
+          ensuring that you have everything you need for a relaxing and
+          rejuvenating stay.
+        </p>
+        <p class="welcome-bottom-text">
+          Each room is equipped with the latest amenities, including plush
+          bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to help
+          you start your day right. Our spacious bathrooms feature luxurious
+          toiletries and towels, so you can pamper yourself in complete privacy.
+        </p>
+      </div>
     </div>
-    <div class="welcome-img">
-      <picture>
+    <div>
+      <picture class="welcome-picture">
         <source
-          srcset="../images/welcome-complex/weclome-complex-tablet@1x.jpg"
+          srcset="/images/welcome-complex/weclome-complex-desctop@1x.jpg"
+          type="image/jpeg"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/images/welcome-complex/weclome-complex-tablet@1x.jpg"
+          type="image/jpeg"
           media="(min-width: 768px)"
-          sizes="(min-width: 768px) 704px 100vw"
         />
         <img
-          srcset="../images/welcome-complex/weclome-complex-mobile@1x.jpg"
-          media="(min-width: 768px)"
+          srcset="/images/welcome-complex/weclome-complex-mobile@1x.jpg"
           alt="photo complex"
+          class="welcome-img"
         />
       </picture>
     </div>

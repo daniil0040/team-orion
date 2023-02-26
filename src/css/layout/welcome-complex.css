@@ -3,28 +3,12 @@
 }
 
 .welcome-title {
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 32px;
   line-height: 1.12;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
   margin-bottom: 32px;
-}
-
-@media screen and (min-width: 768px) {
-  .welcome-title {
-    font-size: 36px;
-    margin-bottom: 50px;
-    margin-right: 270px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .welcome-text-container {
-    display: flex;
-    gap: 32px;
-    margin-bottom: 29px;
-  }
 }
 
 .welcome-top-text {
@@ -34,13 +18,6 @@
   color: var(--main-black-color);
   margin-bottom: 32px;
   margin-right: 29px;
-}
-
-@media screen and (min-width: 768px) {
-  .welcome-top-text {
-    margin: 0;
-    min-width: 306px;
-  }
 }
 
 .welcome-bottom-text {
@@ -58,5 +35,62 @@
 @media screen and (min-width: 768px) {
   .welcome-img {
     margin-bottom: 80px;
+  }
+
+  .welcome-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-right: 270px;
+  }
+
+  .welcome-title {
+    font-size: 36px;
+  }
+
+  .welcome-text-container {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 29px;
+  }
+
+  .welcome-top-text {
+    margin: 0;
+    min-width: 306px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .welcome-container {
+    display: flex;
+  }
+
+  .welcome-wrapper {
+    width: 50%;
+  }
+
+  .welcome-wrapper:first-child {
+    order: 2;
+  }
+
+  .welcome-title {
+    margin-bottom: 300px;
+  }
+
+  .welcome-text-container {
+    display: block;
+    margin-right: 238px;
+    margin-bottom: 0;
+  }
+
+  .welcome-top-text {
+    margin-bottom: 24px;
+  }
+
+  .welcome-bottom-text {
+    margin-bottom: 0;
+  }
+
+  .welcome-img {
+    margin-right: 32px;
   }
 }
