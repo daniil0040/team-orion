@@ -1,8 +1,18 @@
+
+.triple-room-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-top: 30px;
+}
+
 .triple-room-title {
   font-size: 32px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
+  margin-top: 32px;
 }
 
 .triple-room-text {
@@ -10,6 +20,14 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
+  margin-top: 32px;
+}
+
+.triple-room-btn-list {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+  min-width: 332px;
 }
 
 .triple-room-link {
@@ -30,9 +48,139 @@
   transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
     border-color var(--cubic-bezier);
 }
+
 .triple-room-link:is(:hover, :focus),
 .triple-room-btn:is(:hover, :focus) {
   color: var(--main-white-color);
   background-color: var(--main-black-color);
   border-color: var(--main-black-color);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  .triple-room-container {
+    position: relative;
+  }
+
+  .triple-room-img-list {
+    padding-top: 80px;
+    column-gap: 32px;
+  }
+
+  .triple-room-img-absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .triple-room-title {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-top: 40px;
+  }
+
+  .triple-room-text-wrap {
+    display: flex;
+    gap: 32px;
+  }
+
+  .triple-room-text {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .triple-room-text-first {
+    max-width: 355px;
+  }
+
+  .triple-room-text-second {
+    max-width: 299px;
+  }
+
+  .triple-room-btn-list {
+    margin-top: 40px;
+  }
+
+  .triple-room-link {
+    line-height: 1.71;
+    padding: 8px 24px;
+  }
+
+  .triple-room-btn {
+    line-height: 1.71;
+    padding: 8px 24px;
+  }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+
+  .triple-room-container {
+    position: static;
+  }
+
+  .triple-room-img-list {
+    padding-top: 100px;
+    gap: 32px;
+    flex-wrap: nowrap; 
+    align-items: center;
+  }
+
+  .triple-room-img-first {
+    display: flex;
+    order: 2;
+  }
+
+  .triple-room-img-second {
+    display: flex;
+    order: 3;
+  }
+
+  .triple-room-img-third {
+    display: flex;
+    order: 1;
+  }
+
+  .triple-room-img-absolute {
+    position: static;
+  }
+
+  .triple-room-title {
+    margin-top: 50px;
+  }
+
+  .triple-room-wrap {
+    display: flex;
+    gap: 358px;
+  }
+
+  .triple-room-discription {
+    display: flex;
+    order: 2;
+    flex-wrap: wrap;
+  }
+
+  .triple-room-text {
+    margin-top: 40px;
+  }
+
+  .triple-room-btn-list {
+    order: 1;
+  }
+
+  .triple-room-link {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 9px 24px;
+  }
+
+  .triple-room-btn {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 9px 24px;
+  }
+
 }
