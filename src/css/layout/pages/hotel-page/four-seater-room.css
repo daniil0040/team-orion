@@ -36,6 +36,13 @@
                   }
                 }
                 
+@media screen and (min-width: 1440px) {
+    .four-room-img-first {
+        position: absolute;
+        right: 419px;
+      }
+  }
+
 .four-room-img-wrapper{
   display: flex;
   gap: 20px;
@@ -54,6 +61,9 @@
     flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
+      min-height: 762px;
+      height: auto;
+      position: relative;
   }
 }
 .thumb {
