@@ -60,7 +60,6 @@
   }
   .hero-restaurant-img {
     padding-bottom: 40px;
-    width: 436px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -80,7 +79,6 @@
     position: absolute;
     top: 30px;
     left: 737px;
-    height: 580px;
   }
   .hero-restaurant-list {
     padding-bottom: 204px;
