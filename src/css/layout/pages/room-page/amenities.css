@@ -141,8 +141,8 @@
   }
 
   .amenities-btn {
-    bottom: 235px;
-    right: 710px;
+    left: 50%;
+    transform: translate(-95%, -395%);
     font-size: 18px;
     line-height: 1.33;
     padding: 9px 24px;
