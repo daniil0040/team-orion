@@ -11,7 +11,11 @@
   color: var(--main-black-color);
 }
 
-.location-img {
+.location-map {
+  width: 335px;
+  height: 384px;
+  margin-bottom: 32px;
+  mix-blend-mode: luminosity;
   box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
 }
 
@@ -30,7 +34,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
-  margin-bottom: 12px;
 }
 
 .location-list :not(:last-child) {
@@ -60,6 +63,11 @@
     font-size: 68px;
   }
 
+  .location-map {
+    width: 704px;
+    height: 576px;
+  }
+
   .location-top-text {
     margin-bottom: 0;
   }
@@ -80,8 +88,8 @@
   .location-title {
     margin-bottom: 40px;
   }
-  .location-img {
-    margin-bottom: 32px;
+  .location-bottom-text {
+    margin-bottom: 12px;
   }
 }
 
@@ -97,10 +105,14 @@
 
   .location-title {
     position: absolute;
-    right: 310px;
+    right: 380px;
   }
 
-  .location-img {
+  .location-map {
+    width: 640px;
+    height: 524px;
+    margin-left: 32px;
+    margin-bottom: 0;
   }
 
   .location-tel-container {
@@ -110,7 +122,7 @@
 
   .location-address {
     position: absolute;
-    right: 150px;
+    right: 215px;
     gap: 70px;
     bottom: 0;
   }
