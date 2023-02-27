@@ -114,4 +114,22 @@
     flex-wrap: wrap;
     max-width: 1176px;
   }
+  .amenities-list {
+    max-width: 473px;
+  }
+  .amenities-main-item:first-child {
+    margin-right: 70px;
+  }
+  .amenities-main-item:nth-child(3) {
+    margin-right: 70px;
+    width: 633px;
+  }
+  .amenities-main-item:not(:last-child) {
+    margin-bottom: 100px;
+  }
+  .amenities-btn {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 9px 24px;
+  }
 }
