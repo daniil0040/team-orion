@@ -45,13 +45,16 @@
   width: 100%;
 }
 
+.restaurant-menu-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+
 
 .restaurant-menu-item::after {
   content: '';
   display: inline-block;
   height: 1px;
   width: 100%;
-  margin-bottom: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -100,7 +103,7 @@
   line-height: 1.4;
   letter-spacing: 0.18em;
   color: rgba(216, 215, 215, 0.5);
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 
 .restaurant-price-wrap {
@@ -193,7 +196,7 @@
     width: 335px;
   }
   .restaurant-menu-item:nth-child(4) > .restaurant-menu-text-wrap {
-    width: 335px;
+    width: 344px;
   }
   .restaurant-menu-item:nth-child(5) > .restaurant-menu-text-wrap {
     width: 325px;
