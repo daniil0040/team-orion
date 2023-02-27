@@ -88,10 +88,6 @@
   .amenities-main-list {
     margin-bottom: 122px;
   }
-  .amenities-img-item:last-child {
-    bottom: 186px;
-    right: 339px;
-  }
   .amenities-btn {
     position: absolute;
     bottom: 194px;
@@ -102,6 +98,10 @@
 @media screen and (max-width: 1439px) {
   .amenities-main-item:not(:last-child) {
     margin-bottom: 40px;
+  }
+  .amenities-img-item:last-child {
+    bottom: 186px;
+    right: 339px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -127,6 +127,11 @@
   .amenities-main-item:not(:last-child) {
     margin-bottom: 100px;
   }
+  .amenities-img-item:last-child {
+    bottom: 209px;
+    right: 409px;
+  }
+
   .amenities-btn {
     font-size: 18px;
     line-height: 1.33;
