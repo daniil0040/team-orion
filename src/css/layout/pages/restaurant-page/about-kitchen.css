@@ -24,3 +24,84 @@
   gap: 20px;
   margin-bottom: 12px;
 }
+
+@media screen and (min-width: 768px) {
+  .about-kitchen-list {
+    display: flex;
+  }
+
+  .about-kitchen-item {
+    margin-bottom: 16px;
+  }
+
+  .about-kitchen-img-container {
+    display: block;
+    margin-right: 32px;
+    margin-bottom: 28px;
+  }
+
+  .about-kitchen-item:first-child {
+    order: 2;
+  }
+
+  .about-kitchen-text {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 16px;
+  }
+
+  .about-kitchen-top-text,
+  .about-kitchen-bottom-text {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-kitchen-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .about-kitchen-item:first-child {
+    order: inherit;
+  }
+
+  .about-kitchen-list {
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .about-kitchen-img-container {
+    display: flex;
+    gap: 32px;
+  }
+
+  .about-kitchen-text {
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .about-kitchen-top-text,
+  .about-kitchen-bottom-text {
+    font-weight: 500px;
+  }
+
+  .about-kitchen-top-text {
+    width: 334px;
+  }
+
+  .about-kitchen-bottom-text {
+    width: 453px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .about-kitchen-img-container {
+    margin-right: 0;
+  }
+} */
