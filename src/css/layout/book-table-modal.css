@@ -1,0 +1,39 @@
+.book-table-modal-backdrop{
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity var(--cubic-bezier),
+    visibility var(--cubic-bezier);
+}
+.book-table-modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 337px;
+    min-height: 528px;
+    background-color: var(--main-black-color);
+    border-radius: 2px;
+}
+.book-table-modal-close-btn{
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    justify-content: center;
+    align-items: center;
+    fill: var(--main-white-color);
+    background-color: var(--main-white-color);
+    cursor: pointer;
+}
+.book-table-modal-title{
+    font-weight: 500;
+font-size: 28px;
+line-height: 1.36;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--main-white-color);
+}
