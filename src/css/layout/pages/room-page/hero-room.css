@@ -51,6 +51,7 @@
     max-width: 407px;
   }
   .hero-room-btn {
+    padding: 8px 24px;
     line-height: 1.71;
     margin-bottom: 28px;
   }
@@ -76,7 +77,8 @@
     top: -139px;
   }
   .hero-room-btn {
-    line-height: 1.71;
+    line-height: 1.33;
     margin-bottom: 169px;
+    padding: 9px 24px;
   }
 }
