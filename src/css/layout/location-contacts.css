@@ -34,7 +34,6 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--main-black-color);
-  margin-bottom: 12px;
 }
 
 .location-list :not(:last-child) {
@@ -88,6 +87,9 @@
 @media screen and (max-width: 1439px) {
   .location-title {
     margin-bottom: 40px;
+  }
+  .location-bottom-text {
+    margin-bottom: 12px;
   }
 }
 
