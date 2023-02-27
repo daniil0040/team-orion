@@ -1,15 +1,26 @@
 <section class="hero-room">
-  <div class="container">
+  <div class="container hero-room-container">
     <h2 class="hero-room-title">
       Double <span class="italic">luxury</span> room
     </h2>
     <button class="hero-room-btn btn" type="button">View prices</button>
-    <img
-      class="hero-room-img"
-      src="../images/pages/room-page/hero-room/hero-room-mobile@1x.jpg"
-      alt="A hotel room with two beds"
-      width="250"
-    />
+    <picture>
+      <source
+        srcset="/images/pages/room-page/hero-room/hero-room-desctop@1x.jpg 1x"
+        media="(min-width: 1440px)"
+        type="image/jpeg"
+      />
+      <source
+        srcset="/images/pages/room-page/hero-room/hero-room-tablet@1x.jpg 1x"
+        media="(min-width: 768px)"
+        type="image/jpeg"
+      />
+      <img
+        class="hero-room-img"
+        src="/images/pages/room-page/hero-room/hero-room-mobile@1x.jpg"
+        alt="restaurant"
+      />
+    </picture>
     <p class="hero-room-text">
       The Mimino hotel features spacious and stylish double luxury rooms with
       modern amenities for a comfortable stay.
