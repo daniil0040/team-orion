@@ -59,8 +59,13 @@
 
 @media screen and (min-width: 1440px) {
   .about-kitchen-wrapper {
+    position: relative;
+    margin-bottom: 84px;
+  }
+
+  .about-kitchen-wrapper {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-start;
@@ -79,29 +84,22 @@
   .about-kitchen-img-container {
     display: flex;
     gap: 32px;
+    margin: 0;
   }
 
   .about-kitchen-text {
-    justify-content: flex-end;
-    align-items: flex-start;
-  }
-
-  .about-kitchen-top-text,
-  .about-kitchen-bottom-text {
-    font-weight: 500px;
+    position: absolute;
+    bottom: 0;
+    margin-right: 13px;
   }
 
   .about-kitchen-top-text {
+    font-weight: 500;
     width: 334px;
   }
 
   .about-kitchen-bottom-text {
+    font-weight: 500;
     width: 453px;
   }
 }
-
-/* @media screen and (max-width: 768px) {
-  .about-kitchen-img-container {
-    margin-right: 0;
-  }
-} */
