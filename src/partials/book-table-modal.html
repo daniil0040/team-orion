@@ -5,28 +5,50 @@
         </svg>
         <p class="table-modal-title">book <span class="italic">a table</span></p>
         <form class="table-modal-form">
-            <lable class="book-table-modal-form-fieled">
-                <span class="table-modal-form-placeholder"></span>
+            <lable class="table-modal-form-fieled">
                 <input 
                 name="user_name" 
                 type="text" 
-                class="table-modal-form-input" 
+                class="table-modal-form-input name-input" 
                 pattern="[a-zA-zа-яА-ЯіІїЇ]+" 
                 required 
-                minlength="2">
+                minlength="2"
+                placeholder="your name"
+                >
+                <span class="table-modal-form-input-desc">who should book a table for?</span>
             </lable>
             <lable class="table-modal-form-fieled">
-                <input 
-                type="text" 
-                class="table-modal-form-input">
+                <select class="table-modal-form-select" name="number of people">
+                    <option value="">number of people</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
             </lable>
             <lable class="table-modal-form-fieled">
-                <input type="text" class="table-modal-form-input">
+                <select class="table-modal-form-select" name="number of people">
+                    <option value="">today</option>
+                    <option value="">monday</option>
+                    <option value="">tuesday</option>
+                    <option value="">wednesday</option>
+                    <option value="">saturday</option>
+                    <option value="">sunday</option>
+                </select>
+                <span class="table-modal-form-input-desc">what date to book?</span>
             </lable>
             <lable class="book-table-modal-form-fieled">
-                <input type="text" class="table-modal-form-input">
+                <input
+                name="user_phone"
+                type="tel" 
+                class="table-modal-form-input"
+                required
+                pattern="[0-9]+"
+                placeholder="+38 ()"
+                >
             </lable>
-            <button type="submit">make a reservation</button>
+            <button class="reservation-submit-btn" type="submit">make a reservation</button>
         </form>
     </div>
 </div>
