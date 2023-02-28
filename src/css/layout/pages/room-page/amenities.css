@@ -4,8 +4,6 @@
   padding-bottom: 64px;
   background-color: var(--main-black-color);
 }
-.amenities-container {
-}
 
 .amenities-main-list {
   margin-bottom: 64px;
@@ -25,8 +23,6 @@
   color: var(--main-white-color);
   list-style-type: disc;
 }
-.amenities-item {
-}
 
 .amenities-text {
   font-size: 14px;
@@ -38,8 +34,7 @@
   position: relative;
   margin-left: auto;
 }
-.amenities-img-item {
-}
+
 .amenities-img-item:last-child {
   position: absolute;
 }
@@ -47,9 +42,6 @@
   margin-left: auto;
 }
 .amenities-btn {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
   padding: 8px 40px;
   transition: color var(--cubic-bezier), background-color var(--cubic-bezier),
     border-color var(--cubic-bezier);
@@ -93,8 +85,6 @@
   }
   .amenities-btn {
     position: absolute;
-    line-height: 1.71;
-    padding: 8px 24px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1439px) {

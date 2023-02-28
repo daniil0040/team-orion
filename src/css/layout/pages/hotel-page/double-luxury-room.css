@@ -45,19 +45,8 @@
   gap: 12px;
 }
 
+.double-room-btn,
 .double-room-link {
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-  color: var(--main-black-color);
-  transition: background-color var(--cubic-bezier),
-    box-shadow var(--cubic-bezier);
-}
-
-.double-room-btn {
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
   color: var(--main-black-color);
   transition: background-color var(--cubic-bezier),
     box-shadow var(--cubic-bezier);
@@ -117,11 +106,6 @@
   .double-room-btn-list {
     justify-content: flex-end;
   }
-
-  .double-room-btn,
-  .double-room-link {
-    line-height: 1.71;
-  }
 }
 
 @media screen and (max-width: 1439px) {
@@ -172,11 +156,5 @@
 
   .double-room-features-text {
     max-width: 355px;
-  }
-
-  .double-room-btn,
-  .double-room-link {
-    font-size: 18px;
-    line-height: 1.33;
   }
 }

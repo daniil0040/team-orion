@@ -140,12 +140,6 @@
   color: var(--main-white-color);
 }
 .restaurant-menu-btn {
-  display: block;
-  padding-left: 24px;
-  padding-right: 24px;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: -0.02em;
   transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
     border-color var(--cubic-bezier);
 }
@@ -282,10 +276,5 @@
 
   .restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-list:nth-of-type(1) {
     margin-bottom: 28px;
-  }
-
-  .restaurant-menu-btn {
-    padding-top: 9px;
-    padding-bottom: 9px;
   }
 }
