@@ -1,5 +1,6 @@
 .index .header {
   background-color: transparent;
+  position: absolute;
 }
 
 .restaurant .header,
@@ -10,7 +11,7 @@
 
 .header {
   width: 100%;
-  position: fixed;
+  z-index: 999;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
@@ -31,6 +32,12 @@
   stroke: var(--main-white-color);
 }
 
+.restaurant .icon-open,
+.hotel .icon-open,
+.room .icon-open {
+  fill: var(--main-black-color);
+}
+
 .header-logo-link {
   margin-left: auto;
   margin-right: auto;
@@ -41,6 +48,7 @@
   letter-spacing: 0.18em;
   color: #d8d7d7;
 }
+
 .header-logo-link > span {
   margin: 0 auto 3px;
   font-weight: 500;
@@ -50,20 +58,26 @@
   color: var(--main-white-color);
 }
 
+.restaurant .header-logo-link,
+.hotel .header-logo-link,
+.room .header-logo-link,
+.restaurant .header-logo-link > span,
+.hotel .header-logo-link > span,
+.room .header-logo-link > span {
+  color: var(--main-black-color);
+}
+
 .mobile-menu {
   display: none;
   padding-top: 128px;
   text-align: center;
   background-color: var(--main-black-color);
-  z-index: 999;
+  z-index: 1000;
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   height: 100vh;
-}
-
-.menu-btn {
 }
 
 .menu-nav-list {
@@ -80,9 +94,15 @@
   color: var(--main-white-color);
 }
 
-.header-icon,
-.menu-icon {
+.icon-header,
+.icon-menu {
   fill: var(--main-white-color);
+}
+
+.restaurant .icon-header,
+.hotel .icon-header,
+.room .icon-header {
+  fill: var(--main-black-color);
 }
 
 .menu-list {
@@ -132,6 +152,12 @@
   .header-logo-link {
     font-size: 8px;
     line-height: 1.25;
+  }
+
+  .icon-btn,
+  .icon-menu-btn {
+    width: 32px;
+    height: 32px;
   }
 
   .header-list {
