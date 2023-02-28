@@ -1,6 +1,6 @@
 <header class="header">
   <div class="header-container container">
-    <button type="button" class="header-btn js-open-menu">
+    <button type="button" class="header-btn" data-menu-button>
       <svg class="icon-btn" height="28" width="28">
         <use
           class="icon-open"
@@ -36,16 +36,16 @@
         </li>
       </ul>
     </nav>
-    <button type="button" class="menu-btn js-close-menu">
-      <svg class="icon-menu-btn" height="28" width="28">
-        <use
-          class="icon-close"
-          href="/images/sprite/icons.svg#icon-close"
-        ></use>
-      </svg>
-    </button>
-    <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu" data-menu>
       <div class="menu-container container">
+        <button type="button" class="menu-btn" data-menu-button>
+          <svg class="icon-menu-btn" height="28" width="28">
+            <use
+              class="icon-close"
+              href="/images/sprite/icons.svg#icon-close"
+            ></use>
+          </svg>
+        </button>
         <nav class="menu-nav">
           <ul class="menu-nav-list list">
             <li class="menu-nav-item">
