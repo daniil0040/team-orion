@@ -77,11 +77,6 @@
   .main-hero-text-wrapper {
     flex-direction: row;
   }
-  .hero-main-btn {
-    padding-left: 24px;
-    padding-right: 24px;
-    line-height: 1.33;
-  }
 }
 
 @media screen and (min-width: 1440px) {

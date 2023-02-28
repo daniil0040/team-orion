@@ -45,9 +45,6 @@
 
 .restaurants-details-link,
 .restaurants-details-btn {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
   color: var(--main-black-color);
   transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
     border-color var(--cubic-bezier);
@@ -87,10 +84,6 @@
   .restaurants-details-title {
     font-size: 68px;
   }
-  .restaurants-details-link,
-  .restaurants-details-btn {
-    line-height: 1.71;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -108,10 +101,6 @@
     position: absolute;
     right: 32px;
     top: 0;
-  }
-  .restaurants-details-link,
-  .restaurants-details-btn {
-    font-size: 18px;
   }
   .restaurants-details-img-item.desctop {
     display: block;

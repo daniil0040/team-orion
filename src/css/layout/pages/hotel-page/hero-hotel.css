@@ -19,9 +19,6 @@
   margin-bottom: 40px;
 }
 .hero-hotel-btn {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
   color: var(--main-black-color);
   transition: color var(--cubic-bezier), background-color var(--cubic-bezier),
     border-color var(--cubic-bezier);
@@ -55,9 +52,6 @@
   .hero-hotel-img {
     margin-bottom: 40px;
   }
-  .hero-hotel-btn {
-    line-height: 1.71;
-  }
 }
 @media screen and (min-width: 1440px) {
   .hero-hotel {
@@ -74,9 +68,5 @@
   }
   .hero-hotel-list {
     margin-bottom: 204px;
-  }
-  .hero-hotel-btn {
-    font-size: 18px;
-    line-height: 1.33;
   }
 }
