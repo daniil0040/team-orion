@@ -86,6 +86,14 @@
     align-items: flex-end;
     gap: 32px;
   }
+  .four-room-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .four-room-text {
+    font-size: 18px;
+    line-height: 1.33;
+  }
   .four-room-btn-list {
     justify-content: flex-end;
   }
