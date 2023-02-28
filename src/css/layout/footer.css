@@ -2,8 +2,6 @@
   position: relative;
   padding-top: 24px;
   padding-bottom: 64px;
-
-  background-color: var(--main-white-color);
 }
 
 .footer::after {
