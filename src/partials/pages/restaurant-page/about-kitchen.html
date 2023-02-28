@@ -1,47 +1,95 @@
 <section class="about-kitchen">
-  <div class="container">
+  <div class="about-kitchen-container container">
     <h2 class="visuality-hidden">About kitchen</h2>
     <ul class="about-kitchen-list list">
       <li class="about-kitchen-item">
-        <img
-          class="about-kitchen-img"
-          src="
-        ../images/pages/restaurant-page/about-kitchen/about-kitchen-1-mobile@1x.jpg
+        <picture>
+          <source
+            srcset="
+              /images/pages/restaurant-page/about-kitchen/about-kitchen-1-desctop@1x.jpg
+            "
+            media="(min-width: 1440px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              /images/pages/restaurant-page/about-kitchen/about-kitchen-1-tablet@1x.jpg
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            class="about-kitchen-img"
+            src="/images/pages/restaurant-page/about-kitchen/about-kitchen-1-mobile@1x.jpg
       "
-          alt="cook"
-          width="335"
-        />
+            alt="cook"
+          />
+        </picture>
       </li>
-      <li class="about-kitchen-item">
-        <img
-          class="about-kitchen-img"
-          src="../images/pages/restaurant-page/about-kitchen/about-kitchen-2-mobile@1x.jpg"
-          alt="meat"
-          width="158"
-        />
-      </li>
-      <li class="about-kitchen-item">
-        <img
-          class="about-kitchen-img"
-          src="../images/pages/restaurant-page/about-kitchen/about-kitchen-3-mobile@1x.jpg"
-          alt="coctail"
-          width="158"
-        />
-      </li>
+      <ul class="about-kitchen-img-container list">
+        <li class="about-kitchen-item">
+          <picture>
+            <source
+              srcset="
+                /images/pages/restaurant-page/about-kitchen/about-kitchen-2-desctop@1x.jpg
+              "
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="
+                /images/pages/restaurant-page/about-kitchen/about-kitchen-2-tablet@1x.jpg
+              "
+              media="(min-width: 768px)"
+              type="image/jpeg"
+            />
+            <img
+              class="about-kitchen-img"
+              src="/images/pages/restaurant-page/about-kitchen/about-kitchen-2-mobile@1x.jpg"
+              alt="meat"
+            />
+          </picture>
+        </li>
+        <li class="about-kitchen-item">
+          <picture>
+            <source
+              srcset="
+                /images/pages/restaurant-page/about-kitchen/about-kitchen-3-desctop@1x.jpg
+              "
+              media="(min-width: 1440px)"
+              type="image/jpeg"
+            />
+            <source
+              srcset="
+                /images/pages/restaurant-page/about-kitchen/about-kitchen-3-tablet@1x.jpg
+              "
+              media="(min-width: 768px)"
+              type="image/jpeg"
+            />
+            <img
+              class="about-kitchen-img"
+              src="/images/pages/restaurant-page/about-kitchen/about-kitchen-3-mobile@1x.jpg"
+              alt="coctail"
+            />
+          </picture>
+        </li>
+      </ul>
     </ul>
-    <p class="about-kitchen-text">
-      At Mimino, we are experts in m<span class="italic">eat preparation</span>.
-      Our chefs use only the finest and freshest ingredients to
-      <span class="italic">create delicious dishes</span>
-      that showcase the flavors of premium cuts of meat.
-    </p>
-    <p class="about-kitchen-text">
-      Our
-      <span class="italic">slow-cooking process</span> and expert seasoning
-      bring out the best in each dish, making for an unforgettable dining
-      experience. Come taste the magic
-      <span class="italic">of meat preparation at</span>
-      Mimino.
-    </p>
+    <div class="about-kitchen-text">
+      <p class="about-kitchen-top-text">
+        At Mimino, we are experts in m<span class="italic">eat preparation</span
+        >. Our chefs use only the finest and freshest ingredients to
+        <span class="italic">create delicious dishes</span>
+        that showcase the flavors of premium cuts of meat.
+      </p>
+      <p class="about-kitchen-bottom-text">
+        Our
+        <span class="italic">slow-cooking process</span> and expert seasoning
+        bring out the best in each dish, making for an unforgettable dining
+        experience. Come taste the magic
+        <span class="italic">of meat preparation at</span>
+        Mimino.
+      </p>
+    </div>
   </div>
 </section>
