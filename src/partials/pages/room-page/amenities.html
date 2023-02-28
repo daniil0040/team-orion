@@ -1,6 +1,6 @@
 <section class="amenities">
-  <div class="container">
-    <h2 class="visually-hidden">Amenities</h2>
+  <div class="amenities-container container">
+    <h2 class="visuality-hidden">Amenities</h2>
     <ul class="amenities-main-list list">
       <li class="amenities-main-item">
         <h3 class="amenities-title">General Amenities &amp; Facilities:</h3>
@@ -131,20 +131,48 @@
     </ul>
     <ul class="amenities-img-list list">
       <li class="amenities-img-item">
-        <img
-          src="../images/pages/room-page/amenities/amenities-1-mobile@1x.jpg"
-          alt="A bathroom in the hotel room"
-          width="259"
-          class="amenities-img"
-        />
+        <picture>
+          <source
+            srcset="
+              /images/pages/room-page/amenities/amenities-1-desctop@1x.jpg
+            "
+            media="(min-width: 1440px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              /images/pages/room-page/amenities/amenities-1-tablet@1x.jpg 1x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            src="/images/pages/room-page/amenities/amenities-1-mobile@1x.jpg"
+            alt="A bathroom in the hotel room"
+            class="amenities-img"
+          />
+        </picture>
       </li>
       <li class="amenities-img-item">
-        <img
-          src="../images/pages/room-page/amenities/amenities-2-mobile@1x.jpg"
-          alt="Complimentary toiletries"
-          width="207"
-          class="amenities-img"
-        />
+        <picture>
+          <source
+            srcset="
+              /images/pages/room-page/amenities/amenities-2-desctop@1x.jpg
+            "
+            media="(min-width: 1440px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="/images/pages/room-page/amenities/amenities-2-tablet@1x.jpg"
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            src="/images/pages/room-page/amenities/amenities-2-mobile@1x.jpg"
+            alt="Complimentary toiletries"
+            class="amenities-img"
+          />
+        </picture>
       </li>
     </ul>
     <button class="amenities-btn btn" type="button">Book a room</button>
