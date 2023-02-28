@@ -1,4 +1,5 @@
 .double-room {
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 
@@ -70,6 +71,7 @@
 
 @media screen and (min-width: 768px) {
   .double-room {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
