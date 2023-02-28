@@ -17,6 +17,7 @@
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 .header-container {
+  position: relative;
   display: flex;
 }
 .header-nav {
@@ -42,11 +43,21 @@
   color: var(--main-black-color);
 }
 
-.header-nav-link.active::after {
+.active::after {
+  position: absolute;
+  bottom: 0px;
+  left: 50px;
+  content: '';
   width: 4px;
   height: 4px;
   border-radius: 100%;
   background-color: var(--main-white-color);
+}
+
+.hotel .active::after,
+.room .active::after,
+.restaurant .active::after {
+  background-color: var(--main-black-color);
 }
 
 .header-btn,
@@ -157,11 +168,11 @@
   display: none;
 }
 
-.mobile-menu.is-open .menu-btn {
+.mobile-menu.is-open {
   display: block;
 }
 
-.mobile-menu.is-open {
+.mobile-menu.is-open .menu-btn {
   display: block;
 }
 
