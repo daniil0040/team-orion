@@ -1,6 +1,5 @@
 .index .header {
-  background-color: transparent;
-  position: absolute;
+  background-color: var(--main-black-color);
 }
 
 .restaurant .header,
@@ -171,8 +170,21 @@
     line-height: 1.14;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .index .header {
+    position: static;
+    background-color: var(--main-black-color);
+  }
+}
+
+@media screen and(max-width: 1439px) {
+}
 
 @media screen and (min-width: 1440px) {
+  .index .header {
+    position: absolute;
+    background-color: transparent;
+  }
   .mobile-menu {
     display: none;
   }
