@@ -121,6 +121,16 @@
   height: 100vh;
 }
 
+.mobile-menu::before {
+  display: block;
+  position: absolute;
+  top: 78px;
+  content: '';
+  height: 0.5px;
+  background-color: rgba(247, 247, 247, 0.2);
+  width: 100%;
+}
+
 .header-menu {
   width: 100%;
   position: absolute;
