@@ -74,7 +74,7 @@
 }
 
 .restaurant-menu-item:nth-child(2) > .restaurant-menu-text-wrap {
-  width: 188px;
+  width: 190px;
 }
 
 .restaurant-menu-item:nth-child(3) > .restaurant-menu-text-wrap {
@@ -84,7 +84,7 @@
   width: 204px;
 }
 .restaurant-menu-item:nth-child(5) > .restaurant-menu-text-wrap {
-  width: 207px;
+  width: 214px;
 }
 
 .restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-dishes {
