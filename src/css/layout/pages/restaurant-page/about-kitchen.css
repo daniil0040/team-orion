@@ -91,8 +91,7 @@
 
   .about-kitchen-text {
     position: absolute;
-    bottom: 0;
-    top: 515px;
+    bottom: 33px;
     margin-left: 543px;
     column-gap: 22px;
   }
