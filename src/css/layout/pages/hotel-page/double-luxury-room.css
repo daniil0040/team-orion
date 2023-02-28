@@ -28,7 +28,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  margin-bottom: 28px;
 }
 
 .double-room-features-text,
@@ -41,7 +40,8 @@
 
 .double-room-btn-list {
   display: flex;
-  column-gap: 12px;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
 .double-room-link {
@@ -96,7 +96,6 @@
   .double-room-text-wrap {
     flex-direction: row;
     column-gap: 32px;
-    margin-bottom: 40px;
   }
 
   .double-room-features-text,
@@ -114,12 +113,24 @@
   }
 
   .double-room-btn-list {
-    justify-content: right;
+    justify-content: flex-end;
   }
 
   .double-room-btn,
   .double-room-link {
     line-height: 1.71;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .double-room-title-wrap {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .double-room-title-wrap {
+    margin-bottom: 28px;
   }
 }
 
