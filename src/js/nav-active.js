@@ -1,4 +1,4 @@
-const link = document.querySelectorAll('header-nav-link');
+const link = document.querySelectorAll('.header-nav-link');
 const url = document.location.pathname;
 const CLASS = 'active';
 link.forEach(x => {
