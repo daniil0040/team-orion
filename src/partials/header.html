@@ -1,6 +1,19 @@
 <header class="header">
   <div class="header-container container">
-    <button type="button" class="header-btn" data-menu-button>
+    <nav class="header-nav">
+      <ul class="header-nav-list list">
+        <li class="header-nav-item">
+          <a class="header-nav-link link active" href="/index.html">home</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link link" href="/hotel.html">hotel</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link link" href="/restaurant.html">restaurant</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="header-btn" data-menu-open-button>
       <svg class="icon-btn" height="28" width="28">
         <use
           class="icon-open"
@@ -11,34 +24,32 @@
     <a class="header-logo-link link" href="/index.html"
       ><span>mimino</span>restaurant-hotel complex</a
     >
-    <nav class="header-nav">
-      <ul class="header-list list">
-        <li class="header-item">
-          <a href="" class="header-link" target="_blank">
-            <svg class="icon-header" width="24" height="24">
-              <use href="/images/sprite/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-item">
-          <a href="" class="header-link" target="_blank">
-            <svg class="icon-header" width="24" height="24">
-              <use href="/images/sprite/icons.svg#icon-twitter"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="header-item">
-          <a href="" class="header-link" target="_blank">
-            <svg class="icon-header" width="24" height="24">
-              <use href="/images/sprite/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <ul class="header-list list">
+      <li class="header-item">
+        <a href="" class="header-link" target="_blank">
+          <svg class="icon-header" width="24" height="24">
+            <use href="/images/sprite/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-item">
+        <a href="" class="header-link" target="_blank">
+          <svg class="icon-header" width="24" height="24">
+            <use href="/images/sprite/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-item">
+        <a href="" class="header-link" target="_blank">
+          <svg class="icon-header" width="24" height="24">
+            <use href="/images/sprite/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
     <div class="mobile-menu" data-menu>
       <div class="menu-container container">
-        <button type="button" class="menu-btn" data-menu-button>
+        <button type="button" class="menu-btn" data-menu-close-button>
           <svg class="icon-menu-btn" height="28" width="28">
             <use
               class="icon-close"
