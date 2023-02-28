@@ -5,14 +5,10 @@
 
 .double-room-img-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   row-gap: 20px;
-  margin-bottom: 32px;
-}
-
-.double-room-img-wrap {
-  display: flex;
   column-gap: 19px;
+  margin-bottom: 32px;
 }
 
 .double-room-title {
@@ -31,8 +27,9 @@
   row-gap: 24px;
 }
 
-.double-room-features-text,
-.double-room-relax-text {
+.double-room-text {
+  max-width: 335px;
+
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -45,12 +42,18 @@
   gap: 12px;
 }
 
-.double-room-btn,
 .double-room-link {
   color: var(--main-black-color);
   transition: background-color var(--cubic-bezier),
     box-shadow var(--cubic-bezier);
 }
+
+.double-room-btn {
+  color: var(--main-black-color);
+  transition: background-color var(--cubic-bezier),
+    box-shadow var(--cubic-bezier);
+}
+
 .double-room-link:is(:hover, :focus),
 .double-room-btn:is(:hover, :focus) {
   color: var(--main-white-color);
@@ -65,16 +68,16 @@
   }
 
   .double-room-img-list {
-    margin-bottom: 40px;
-    column-gap: 32px;
     flex-direction: row-reverse;
+    margin-bottom: 40px;
+    gap: 32px;
+    position: relative;
   }
 
-  .double-room-img-wrap {
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: right;
-    row-gap: 32px;
+  .double-room-img-item:nth-child(3) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   .double-room-title {
@@ -89,17 +92,16 @@
     column-gap: 32px;
   }
 
-  .double-room-features-text,
-  .double-room-relax-text {
+  .double-room-text {
     font-size: 18px;
     line-height: 1.33;
   }
 
-  .double-room-features-text {
+  .double-room-text:first-child {
     max-width: 369px;
   }
 
-  .double-room-relax-text {
+  .double-room-text:last-child {
     max-width: 299px;
   }
 
@@ -127,21 +129,26 @@
   }
 
   .double-room-img-list {
-    display: block;
-    position: relative;
+    flex-direction: row;
     margin-bottom: 50px;
-  }
-
-  .double-room-img-first {
-    position: absolute;
-    right: 419px;
-  }
-
-  .double-room-img-wrap {
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
-    min-height: 762px;
+  }
+
+  .double-room-img-item:nth-child(1) {
+    display: flex;
+    order: 2;
+  }
+
+  .double-room-img-item:nth-child(2) {
+    display: flex;
+    order: 3;
+  }
+
+  .double-room-img-item:nth-child(3) {
+    display: flex;
+    order: 1;
+    position: static;
   }
 
   .double-room-thumb {
@@ -154,7 +161,7 @@
     margin-bottom: 40px;
   }
 
-  .double-room-features-text {
+  .double-room-text:first-child {
     max-width: 355px;
   }
 }
