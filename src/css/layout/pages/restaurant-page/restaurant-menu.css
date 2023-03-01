@@ -18,7 +18,7 @@
 }
 
 .restaurant-menu-main-wrap {
-  margin-bottom: 96px;
+  margin-bottom: 102px;
 }
 
 .restaurant-menu-wrap {
@@ -44,6 +44,10 @@
   color: var(--main-white-color);
   padding: 0;
   margin: 0;
+}
+
+.restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-list:nth-of-type(1){
+  margin-bottom: 28px;
 }
 
 .restaurant-menu-item {
@@ -81,10 +85,10 @@
   width: 211px;
 }
 .restaurant-menu-item:nth-child(4) > .restaurant-menu-text-wrap {
-  width: 204px;
+  width: 210px;
 }
 .restaurant-menu-item:nth-child(5) > .restaurant-menu-text-wrap {
-  width: 214px;
+  width: 218px;
 }
 
 .restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-dishes {
@@ -140,6 +144,9 @@
   color: var(--main-white-color);
 }
 .restaurant-menu-btn {
+  line-height: 1.7;
+  padding-left: 24px;
+  padding-right: 24px;
   transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
     border-color var(--cubic-bezier);
 }
@@ -147,6 +154,41 @@
   color: var(--main-black-color);
   background-color: var(--main-white-color);
   border-color: var(--main-white-color);
+}
+
+.slick-slider {
+  position: relative;
+}
+
+.slick-arrow {
+  position: absolute;
+  padding: 0;
+  bottom: -62px;
+  border: none;
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+  background-color: inherit;
+}
+
+.my-slick-prev {
+  left: calc(100% - 60%);
+  background: url(../../../../images/slider-btn/button-prev.svg) 0 0 / 100%
+    no-repeat;
+}
+
+.my-slick-next {
+  right: calc(100% - 60%);
+  background: url(../../../../images/slider-btn/button-next.svg) 0 0 / 100%
+    no-repeat;
+}
+
+.slick-disabled {
+  opacity: 0.3;
+}
+
+.slick-list {
+  overflow: hidden;
 }
 
 @media screen and (max-width: 331px) {
@@ -157,6 +199,7 @@
 
 @media screen and (max-width: 768px) {
   .restaurant-menu-btn {
+    display: flex;
     margin-right: auto;
     margin-left: auto;
   }
@@ -180,7 +223,7 @@
   }
 
   .restaurant-menu-main-wrap {
-    margin-bottom: 108px;
+    margin-bottom: 114px;
   }
 
   .restaurant-menu-wrap {
@@ -235,6 +278,12 @@
     margin-right: auto;
     margin-left: 0;
   }
+
+  .slick-arrow {
+    width: 36px;
+    height: 36px;
+    bottom: -75px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -263,7 +312,8 @@
     flex-wrap: wrap;
     column-gap: 74px;
     row-gap: 56px;
-    margin-bottom: 50px;
+    margin-bottom: 56px;
+    min-width: 0;
   }
 
   .restaurant-menu-wrap {
@@ -273,8 +323,5 @@
   .restaurant-menu-wrap:not(:first-of-type) {
     display: block;
   }
-
-  .restaurant-menu-wrap:nth-of-type(4) .restaurant-menu-list:nth-of-type(1) {
-    margin-bottom: 28px;
-  }
 }
+
