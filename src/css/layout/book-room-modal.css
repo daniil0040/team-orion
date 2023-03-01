@@ -1,4 +1,8 @@
-.table-modal {
+.modal {
+  display: none;
+}
+.modal.active {
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,6 +16,7 @@
   padding-bottom: 40px;
   padding-left: 24px;
 }
+
 .table-modal-close-btn {
   position: absolute;
   top: 14px;
@@ -26,6 +31,7 @@
   stroke: var(--main-white-color);
   cursor: pointer;
 }
+
 .table-modal-title {
   font-weight: 500;
   font-size: 28px;
@@ -35,19 +41,24 @@
   color: var(--main-white-color);
   margin-bottom: 40px;
 }
+
 .table-modal-form {
   display: flex;
   flex-direction: column;
 }
+
 .table-modal-form-fieled {
   flex-basis: 100%;
 }
+
 .table-modal-form-fieled {
   margin-bottom: 32px;
 }
+
 .last-child {
   margin-bottom: 40px;
 }
+
 .table-modal-form-input {
   width: 100%;
   background-color: transparent;
@@ -63,12 +74,15 @@
   letter-spacing: -0.02em;
   color: var(--main-white-color);
 }
+
 .name-input {
   text-transform: capitalize;
 }
+
 .table-modal-form-input:focus {
   outline: none;
 }
+
 .table-modal-form-input::placeholder {
   font-weight: 500;
   font-size: 14px;
@@ -77,6 +91,7 @@
   text-transform: uppercase;
   color: var(--main-white-color);
 }
+
 .table-modal-form-input-desc {
   font-size: 8px;
   line-height: 1.5;
@@ -84,6 +99,7 @@
   text-transform: uppercase;
   color: #d8d7d7;
 }
+
 .table-modal-form-select {
   width: 100%;
   background-color: transparent;
