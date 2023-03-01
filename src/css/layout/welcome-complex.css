@@ -1,6 +1,5 @@
 .welcome {
   padding-bottom: 64px;
-  padding-top: 64px;
 }
 
 .welcome-title {
@@ -34,7 +33,6 @@
 @media screen and (min-width: 768px) {
   .welcome {
     padding-bottom: 80px;
-    padding-top: 80px;
   }
   .welcome-title {
     font-size: 36px;

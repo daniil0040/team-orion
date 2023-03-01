@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/main.css" />
 
     <!-- favicon -->
-    <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon-mimino.svg" />
 
     <title>Mimino</title>
   </head>
@@ -35,9 +35,12 @@
 
     <load src="partials/footer.html" />
 
-    <script type="module" src="/main.js"></script>
-    <load src="partials/book-room-modal.html" />
-    <load src="partials/book-table-modal.html" />
+    <!-- modal main-page -->
+
+    <div class="js-overlay-modal">
+      <load src="partials/book-room-modal.html" />
+      <load src="partials/book-table-modal.html" />
+    </div>
 
     <!-- main js -->
     <script type="module" src="/main.js"></script>

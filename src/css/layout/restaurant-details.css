@@ -27,7 +27,6 @@
 
 .restaurants-details-img-list {
   display: flex;
-  margin-bottom: 82px;
 }
 
 .restaurants-details-img-item:not(:last-child) {
@@ -60,6 +59,9 @@
   .restaurants-details-wrap {
     flex-direction: column;
   }
+  .restaurants-details-img-list {
+    margin-bottom: 82px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -72,9 +74,6 @@
     margin-bottom: 80px;
     align-items: center;
   }
-  .restaurants-details-img-list {
-    margin-bottom: 108px;
-  }
   .restaurants-details-img-item:not(:last-child) {
     margin-right: 32px;
   }
@@ -83,6 +82,11 @@
   }
   .restaurants-details-title {
     font-size: 68px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .restaurants-details-img-list {
+    margin-bottom: 108px;
   }
 }
 
