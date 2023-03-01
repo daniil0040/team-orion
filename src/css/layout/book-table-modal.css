@@ -1,4 +1,4 @@
-.modal {
+.table-modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -132,7 +132,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .modal {
+  .table-modal {
     min-width: 628px;
     min-height: 476px;
     padding-top: 32px;
@@ -165,10 +165,10 @@
   .table-modal-form-input {
     min-width: 266px;
   }
+
   .reservation-submit-btn {
     font-size: 18px;
     line-height: 1.33;
     padding: 14px 134px;
-    margin-top: 40px;
   }
 }

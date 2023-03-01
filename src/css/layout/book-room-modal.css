@@ -1,7 +1,4 @@
-.modal {
-  display: none;
-}
-.modal.active {
+.prices-room-modal {
   display: block;
   position: absolute;
   top: 50%;
@@ -139,7 +136,7 @@
   border-color: var(--main-white-color);
 }
 @media screen and (min-width: 768px) {
-  .table-modal {
+  .prices-room-modal {
     min-width: 628px;
     min-height: 476px;
     padding-top: 32px;
