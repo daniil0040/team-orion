@@ -1,7 +1,15 @@
-.js-overlay-modal {
+.backdrop-main,
+.backdrop-main-second,
+.backdrop-hotel,
+.backdrop-restaurant,
+.backdrop-room {
   display: none;
 }
-.js-overlay-modal.is-hidden {
+.backdrop-main.is-hidden,
+.backdrop-main-second.is-hidden,
+.backdrop-hotel.is-hidden,
+.backdrop-restaurant.is-hidden,
+.backdrop-room.is-hidden {
   display: block;
   position: fixed;
   z-index: 1001;
