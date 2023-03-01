@@ -11,7 +11,7 @@
       rgba(0, 0, 0, 0) 70.73%,
       var(--main-black-color) 98.51%
     ),
-    url('../../images/hero-main/hero-main-mobile@1x.jpg');
+    url('./images/hero-main/hero-main-mobile@1x.jpg');
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -80,7 +80,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         var(--main-black-color) 98.51%
       ),
-      url('../../images/hero-main/hero-main-tablet@1x.jpg');
+      url('./images/hero-main/hero-main-tablet@1x.jpg');
   }
 
   /* @media (min-device-pixel-ratio: 2),
@@ -118,7 +118,7 @@
         rgba(0, 0, 0, 0) 70.73%,
         rgba(18, 18, 18, 0.2) 100%
       ),
-      url('../../images/hero-main/hero-main-desktop@1x.jpg');
+      url('./images/hero-main/hero-main-desktop@1x.jpg');
     background-position: top right;
     background-repeat: no-repeat;
     padding-top: 274px;
