@@ -2,43 +2,92 @@
   <div class="container">
     <ul class="four-room-img-list list">
       <li class="four-room-img-item">
-        <img
-          src="../images/pages/hotel-page/four-room/four-room-1-mobile@1x.jpg"
-          alt="Four-seater bedroom"
-          class="four-room-img"
-        />
+        <picture>
+          <source
+            srcset="
+              /images/pages/hotel-page/four-room/four-room-1-desctop@1x.jpg 1x
+            "
+            media="(min-width: 1440px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              /images/pages/hotel-page/four-room/four-room-1-tablet@1x.jpg 1x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            src="/images/pages/hotel-page/four-room/four-room-1-mobile@1x.jpg"
+            alt="Four-seater bedroom"
+          />
+        </picture>
       </li>
       <li class="four-room-img-item">
-        <img
-          src="../images/pages/hotel-page/four-room/four-room-2-mobile@1x.jpg"
-          alt="Four-seater bathroom"
-          class="four-room-img"
-        />
+        <picture>
+          <source
+            srcset="
+              /images/pages/hotel-page/four-room/four-room-2-desctop@1x.jpg
+            "
+            media="(min-width: 1440px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              /images/pages/hotel-page/four-room/four-room-2-tablet@1x.jpg 1x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            src="/images/pages/hotel-page/four-room/four-room-2-mobile@1x.jpg"
+            alt="Four-seater bathroom"
+          />
+        </picture>
       </li>
       <li class="four-room-img-item">
-        <img
-          src="../images/pages/hotel-page/four-room/four-room-3-mobile@1x.jpg"
-          alt="Four-seater kitchen"
-          class="four-room-img"
-        />
+        <picture>
+          <source
+            srcset="
+              /images/pages/hotel-page/four-room/four-room-3-desctop@1x.jpg
+            "
+            media="(min-width: 1440px)"
+            type="image/jpeg"
+          />
+          <source
+            srcset="
+              /images/pages/hotel-page/four-room/four-room-3-tablet@1x.jpg 1x
+            "
+            media="(min-width: 768px)"
+            type="image/jpeg"
+          />
+          <img
+            src="/images/pages/hotel-page/four-room/four-room-3-mobile@1x.jpg"
+            alt="Four-seater kitchen"
+          />
+        </picture>
       </li>
     </ul>
-    <h2 class="four-room-title">four-seater room</h2>
-    <p class="four-room-text">
-      Our 4-person room is perfect for small groups, offering comfort and
-      convenience with 4 comfortable beds, ample storage, flat-screen TV,
-      mini-fridge, coffee maker, desk and chair, air-conditioning, heating, and
-      soundproof walls. Book now for a memorable stay.
-    </p>
-    <ul class="four-room-btn-list list">
-      <li class="four-room-btn-item">
-        <a class="four-room-link link btn" href="/src/room.html"
-          >More details</a
-        >
-      </li>
-      <li class="four-room-btn-item">
-        <button class="four-room-btn btn" type="button">View prices</button>
-      </li>
-    </ul>
+    <div class="four-room-thumb">
+      <div class="text-wrapper">
+        <h2 class="four-room-title">four-seater room</h2>
+        <p class="four-room-text">
+          Our 4-person room is perfect for small groups, offering comfort and
+          convenience with 4 comfortable beds, ample storage, flat-screen TV,
+          mini-fridge, coffee maker, desk and chair, air-conditioning, heating,
+          and soundproof walls. Book now for a memorable stay.
+        </p>
+      </div>
+      <ul class="four-room-btn-list list">
+        <li class="four-room-btn-item">
+          <a class="four-room-link link btn" href="/src/room.html"
+            >More details</a
+          >
+        </li>
+        <li class="four-room-btn-item">
+          <button class="four-room-btn btn" type="button">View prices</button>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
