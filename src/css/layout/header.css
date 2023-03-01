@@ -21,7 +21,6 @@
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 .header-container {
-  position: relative;
   display: flex;
 }
 .header-nav {
