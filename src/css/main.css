@@ -30,6 +30,7 @@
 @import url('./layout/hotel-details.css');
 @import url('./layout/location-contacts.css');
 @import url('./layout/footer.css');
+@import url('./modal-backdrop.css');
 
 /* hotel-page */
 @import url('./layout/pages/hotel-page/hero-hotel.css');
