@@ -42,10 +42,12 @@
   color: var(--main-white-color);
   text-align: start;
 }
+
 .hero-main-btn {
   transition: background-color var(--cubic-bezier), color var(--cubic-bezier),
     border-color var(--cubic-bezier);
 }
+
 .hero-main-btn:is(:hover, :focus) {
   color: var(--main-black-color);
   background-color: var(--main-white-color);
