@@ -1,15 +1,19 @@
 .backdrop-main,
 .backdrop-main-second,
 .backdrop-hotel,
+.backdrop-hotel-second,
 .backdrop-restaurant,
-.backdrop-room {
+.backdrop-room,
+.backdrop-room-second {
   display: none;
 }
 .backdrop-main.is-hidden,
 .backdrop-main-second.is-hidden,
 .backdrop-hotel.is-hidden,
+.backdrop-hotel-second.is-hidden,
 .backdrop-restaurant.is-hidden,
-.backdrop-room.is-hidden {
+.backdrop-room.is-hidden,
+.backdrop-room-second.is-hidden {
   display: block;
   position: fixed;
   z-index: 1001;
