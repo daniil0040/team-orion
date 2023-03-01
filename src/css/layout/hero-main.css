@@ -16,17 +16,18 @@
   background-position: center center;
 }
 
-@media (min-device-pixel-ratio: 2),
+/* @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .bg-img-hero-main {
     background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0) 70.73%,
-      var(--main-black-color) 98.51%
-    ), url('../../images/hero-main/hero-main-mobile@2x.jpg');
+        180deg,
+        rgba(0, 0, 0, 0) 70.73%,
+        var(--main-black-color) 98.51%
+      ),
+      url('../../images/hero-main/hero-main-mobile@2x.jpg');
   }
-}
+} */
 
 .hero-main-title {
   font-weight: 400;
@@ -80,17 +81,19 @@
       url('../../images/hero-main/hero-main-tablet@1x.jpg');
   }
 
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .bg-img-hero-main {
-    background-image: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 70.73%,
-        var(--main-black-color) 98.51%
-      ), url('../../images/hero-main/hero-main-tablet@2x.jpg');
-  }
-}
+  /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .bg-img-hero-main {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          var(--main-black-color) 98.51%
+        ),
+        url('../../images/hero-main/hero-main-tablet@2x.jpg');
+    }
+  } */
+
   .hero-main-title {
     font-size: 150px;
     margin-bottom: 32px;
@@ -120,13 +123,18 @@
     padding-bottom: 48px;
   }
 
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero-main {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, rgba(18, 18, 18, 0.8) 100%), url('../../images/hero-main/hero-main-desktop@2x.jpg');
-  }
-}
+  /* @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main {
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0) 70.73%,
+          rgba(18, 18, 18, 0.8) 100%
+        ),
+        url('../../images/hero-main/hero-main-desktop@2x.jpg');
+    }
+  } */
 
   .bg-img-hero-main {
     display: none;
