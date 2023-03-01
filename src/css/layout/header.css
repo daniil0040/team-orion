@@ -15,7 +15,7 @@
 }
 
 .header {
-  position: fixed;
+  position: static;
   width: 100%;
   z-index: 999;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
@@ -253,6 +253,7 @@
 @media screen and (min-width: 1440px) {
   .index .header {
     background-color: transparent;
+    position: absolute;
   }
   .header-nav {
     display: block;
