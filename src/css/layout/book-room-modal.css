@@ -181,3 +181,9 @@
     margin-right: auto;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .book-room-modal {
+    max-width: 628px;
+  }
+}
