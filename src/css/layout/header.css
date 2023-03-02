@@ -189,6 +189,18 @@
   stroke: var(--main-white-color);
 }
 
+.header-logo-link:active,
+.header-nav-link:active,
+.footer-nav-item:active,
+.menu-logo-link:active,
+.header-btn:active,
+.header-item:active,
+.header-btn:active,
+.footer-item:active,
+.footer-logo-link:active {
+  scale: 1.1;
+}
+
 @media screen and (max-width: 767px) {
   .header {
     padding-top: 22.5px;
@@ -252,6 +264,11 @@
 
   .index.hidden .header-btn {
     display: none;
+  }
+
+  .menu-nav-item:active,
+  .menu-btn:active {
+    scale: 1.1;
   }
 }
 
