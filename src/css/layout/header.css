@@ -38,6 +38,11 @@
   line-height: 1.29;
   letter-spacing: 0.05em;
   color: var(--main-white-color);
+  transition: scale var(--cubic-bezier);
+}
+
+.header-item {
+  transition: scale var(--cubic-bezier);
 }
 
 .hotel .header-nav-link,
@@ -69,6 +74,7 @@
   padding: 0;
   background-color: transparent;
   border: none;
+  transition: scale var(--cubic-bezier);
 }
 .icon-btn {
   display: inline-block;
@@ -92,6 +98,7 @@
   line-height: 1.33;
   letter-spacing: 0.18em;
   color: #d8d7d7;
+  transition: scale var(--cubic-bezier);
 }
 
 .header-logo-link > span,
@@ -153,6 +160,10 @@
   gap: 32px;
 }
 
+.menu-nav-item {
+  transition: scale var(--cubic-bezier);
+}
+
 .menu-nav-link {
   font-size: 18px;
   line-height: 1.33;
@@ -176,6 +187,10 @@
   gap: 14px;
 }
 
+.menu-item {
+  transition: scale var(--cubic-bezier);
+}
+
 .header-list {
   display: flex;
   gap: 14px;
@@ -189,15 +204,15 @@
   stroke: var(--main-white-color);
 }
 
-.header-logo-link:active,
-.header-nav-link:active,
-.footer-nav-item:active,
+.header-logo-link:is(:active, :hover, :focus),
+.header-nav-link:is(:active, :hover, :focus),
+.footer-nav-item:is(:active, :hover, :focus),
 .menu-logo-link:active,
 .header-btn:active,
-.header-item:active,
+.header-item:is(:active, :hover, :focus),
 .header-btn:active,
-.footer-item:active,
-.footer-logo-link:active {
+.footer-item:is(:active, :hover, :focus),
+.footer-logo-link:is(:active, :hover, :focus) {
   scale: 1.1;
 }
 
@@ -267,6 +282,7 @@
   }
 
   .menu-nav-item:active,
+  .menu-item:active,
   .menu-btn:active {
     scale: 1.1;
   }
