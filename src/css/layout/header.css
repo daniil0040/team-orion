@@ -139,6 +139,7 @@
 }
 
 .menu-header {
+  align-items: center;
   margin-bottom: 128px;
   display: flex;
   padding-top: 22.5px;
@@ -228,10 +229,6 @@
   .icon-menu-btn {
     width: 32px;
     height: 32px;
-  }
-
-  .header-list {
-    gap: 16px;
   }
   .menu-list {
     display: none;
