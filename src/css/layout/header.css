@@ -2,6 +2,29 @@
   background-color: var(--main-black-color);
 }
 
+.index .header-nav-link.home::after {
+  position: absolute;
+  bottom: -7px;
+  left: 45%;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: var(--main-white-color);
+}
+
+.hotel .header-nav-link.hotel::after,
+.restaurant .header-nav-link.restaurant::after {
+  position: absolute;
+  bottom: -7px;
+  left: 45%;
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+  background-color: var(--main-black-color);
+}
+
 .restaurant .header,
 .hotel .header,
 .room .header {
@@ -51,7 +74,7 @@
   color: var(--main-black-color);
 }
 
-.active::after {
+/* .active::after {
   position: absolute;
   bottom: -7px;
   left: 45%;
@@ -60,7 +83,7 @@
   height: 4px;
   border-radius: 100%;
   background-color: var(--main-white-color);
-}
+} */
 
 .hotel .active::after,
 .room .active::after,
