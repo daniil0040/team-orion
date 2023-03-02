@@ -1,4 +1,4 @@
-.prices-room-modal {
+.book-room-modal {
   display: block;
   position: absolute;
   top: 50%;
@@ -136,7 +136,7 @@
   border-color: var(--main-white-color);
 }
 @media screen and (min-width: 768px) {
-  .prices-room-modal {
+  .book-room-modal {
     min-width: 628px;
     min-height: 476px;
     padding-top: 32px;

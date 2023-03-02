@@ -1,5 +1,5 @@
 body {
-  font-family: 'dmsans';
+  font-family: 'dmsans', sans-serif;
   text-transform: uppercase;
   background-color: var(--main-white-color);
 }
