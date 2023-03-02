@@ -55,6 +55,13 @@
   background-color: var(--main-black-color);
   border-color: var(--main-black-color);
 }
+
+@media screen and (max-width: 320px) {
+  .restaurants-btn-list {
+    gap: 10px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .restaurants-details-wrap {
     flex-direction: column;

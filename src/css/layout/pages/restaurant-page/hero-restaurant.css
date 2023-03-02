@@ -1,5 +1,5 @@
 .hero-restaurant {
-  padding-top: 40px;
+  padding-top: 118px;
   padding-bottom: 64px;
 }
 .hero-restaurant-container {
@@ -31,9 +31,6 @@
   background-color: var(--main-black-color);
   border-color: var(--main-black-color);
 }
-.hero-restaurant-img {
-  margin-bottom: 100px;
-}
 
 .hero-restaurant-text {
   font-size: 14px;
@@ -42,8 +39,16 @@
   color: var(--main-black-color);
   max-width: 338px;
 }
+
+@media screen and (max-width: 767px) {
+  .hero-restaurant-img {
+    margin-bottom: 100px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-restaurant {
+    padding-top: 118px;
     padding-bottom: 40px;
   }
   .hero-restaurant-title {
@@ -53,14 +58,18 @@
   .hero-restaurant-list {
     margin-bottom: 54px;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .hero-restaurant-img {
     margin-bottom: 40px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .hero-restaurant {
-    padding-top: 204px;
-    padding-bottom: 48px;
+    padding-top: 282px;
+    padding-bottom: 82px;
   }
   .hero-restaurant-title {
     font-size: 90px;

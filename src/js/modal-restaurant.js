@@ -3,7 +3,7 @@
     openRestaurantModalBtn: document.querySelector(
       '[data-restaurant-modal-open]'
     ),
-    openRestaurantSecondModalBtn: document.querySelector(
+    openSecondRestaurantModalBtn: document.querySelector(
       '[data-restaurant-modal-open-second]'
     ),
     closeRestaurantModalBtn: document.querySelector(

@@ -1,5 +1,5 @@
 .hero-room {
-  padding-top: 40px;
+  padding-top: 118px;
   padding-bottom: 64px;
 }
 .hero-room-container {
@@ -27,9 +27,7 @@
   background-color: var(--main-black-color);
   border-color: var(--main-black-color);
 }
-.hero-room-img {
-  margin-bottom: 100px;
-}
+
 .hero-room-text {
   font-size: 14px;
   line-height: 1.29;
@@ -37,6 +35,13 @@
   color: var(--main-black-color);
   max-width: 289px;
 }
+
+@media screen and (max-width: 767px) {
+  .hero-room-img {
+    margin-bottom: 100px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-room {
     padding-bottom: 120px;
@@ -49,6 +54,8 @@
   .hero-room-btn {
     margin-bottom: 28px;
   }
+}
+@media screen and(min-width: 768px) and (max-width: 1439px) {
   .hero-room-img {
     margin-bottom: 40px;
   }
@@ -61,7 +68,7 @@
     max-width: 590px;
   }
   .hero-room {
-    padding-top: 169px;
+    padding-top: 247px;
     padding-bottom: 48px;
   }
   .hero-room-img {

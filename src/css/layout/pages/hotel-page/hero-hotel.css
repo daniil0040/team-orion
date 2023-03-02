@@ -1,5 +1,5 @@
 .hero-hotel {
-  padding-top: 40px;
+  padding-top: 120px;
   padding-bottom: 64px;
 }
 .hero-hotel-container {
@@ -28,9 +28,7 @@
   background-color: var(--main-black-color);
   border-color: var(--main-black-color);
 }
-.hero-hotel-img {
-  margin-bottom: 100px;
-}
+
 .hero-hotel-text {
   font-size: 14px;
   line-height: 1.29;
@@ -38,9 +36,15 @@
   color: var(--main-black-color);
   max-width: 338px;
 }
+@media screen and (max-width: 767px) {
+  .hero-hotel-img {
+    margin-bottom: 100px;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero-hotel {
     padding-bottom: 40px;
+    padding-top: 130px;
   }
   .hero-hotel-list {
     margin-bottom: 54px;
@@ -49,13 +53,17 @@
     font-size: 80px;
     margin-bottom: 32px;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
   .hero-hotel-img {
     margin-bottom: 40px;
   }
 }
+
 @media screen and (min-width: 1440px) {
   .hero-hotel {
-    padding-top: 204px;
+    padding-top: 282px;
     padding-bottom: 48px;
   }
   .hero-hotel-title {
