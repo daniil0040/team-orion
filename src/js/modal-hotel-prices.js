@@ -9,7 +9,7 @@
     openThirdHotelPricesModalBtn: document.querySelector(
       '[data-hotel-modal-prices-open-third]'
     ),
-    openTFourHotelPricesModalBtn: document.querySelector(
+    openFourHotelPricesModalBtn: document.querySelector(
       '[data-hotel-modal-prices-open-four]'
     ),
     closeHotelPricesModalBtn: document.querySelector(
