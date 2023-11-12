@@ -1,5 +1,6 @@
 # team-orion
-Сreate your own phone book with the ability to register and login
+
+A website of restaurant-hotel complex. Adaptive design, animations, modal windows for booking.
 
 ## Installation
 
