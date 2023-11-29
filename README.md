@@ -10,14 +10,11 @@ npm run dev
 
 ## Links
 
-Github repository - https://github.com/SerhiiSavchak/team-orion
+Original Github repository - https://github.com/SerhiiSavchak/team-orion
 
 Live page - https://serhiisavchak.github.io/team-orion
 
 ## Contacts
 
-Gmail - itsavchak@gmail.com
+Gmail - danyapolishchuk777@gmail.com
 
-Telegram - https://t.me/savchakit
-
-LinkedIn - https://www.linkedin.com/in/itsavchak/
